@@ -1,0 +1,15 @@
+<div class="container-fluid bg">
+	<div class="col-md-10">
+		<form class="form-horizontal form-control-static col-md-3 col-md-offset-6">
+			<img class="image-responsive col-md-offset-2" src="assets/images/logo.png" width="60%"><br><br>
+			<div class="col-md-10 col-md-offset-1">
+				<input  [(ngModel)]="user.clientId" class="input form-control" style="background-color:black;color:#c68421;" placeholder="Name...." name="name"><br>
+			</div>
+			<button type="button" (click)="authenticateUser()" class="button col-md-offset-2">Send</button>
+		</form>	
+	</div>
+</div>
+<footer class="container-fluid fg">
+	<h5 class="col-md-offset-1">my.fxbook.com</h5><h5 class="col-md-offset-4">metatrader4</h5><h5 class="col-md-offset-4">LiveChat</h5>
+</footer>
+

@@ -1,0 +1,19 @@
+.bg{
+	padding-bottom:140px; 
+	padding-top:140px; 
+}
+.button {
+	display: inline-block;
+}
+.input
+{
+	border:0;
+	border-bottom: 1px solid #c68421;
+	margin-top:30%;
+    border-bottom-style:groove; 
+  -webkit-border-radius:0 0;
+}
+::-webkit-input-placeholder
+{/*Css For Palceholder*/
+  color: #c68421;
+}

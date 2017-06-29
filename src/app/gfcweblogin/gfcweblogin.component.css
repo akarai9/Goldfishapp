@@ -1,0 +1,37 @@
+.bg
+{
+  padding-bottom:10%; 
+  padding-top:11.53846153846154%; 
+}
+.form-horizontal{
+	background-color:#000000;
+	border:1px solid #c68421 ;
+	padding-top:3.076923076923077%;
+	padding-bottom:2.307692307692308%;
+	padding-left:1.153846153846154%;
+	padding-right:0.9230769230769231%;
+	border-style: groove;
+}
+.button
+{
+ display: inline-block;
+}
+.input
+{
+  border:0;
+  border-bottom: 1px solid #c68421;
+  -webkit-border-radius:0 0;
+  border-bottom-style:groove; 
+  border-left-style: groove;
+  margin-top:30%;
+
+}
+::-webkit-input-placeholder
+{                                 /*Css For Palceholder*/
+  color: #c68421;
+}
+h5
+{
+	color: #c68421;
+	display: inline;
+}

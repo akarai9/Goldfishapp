@@ -1,0 +1,151 @@
+/* You can add global styles to this file, and also import other style files */
+.bg  /*Css for Background Color*/
+{
+	background-color: #000000;
+}
+.hg   /*Css for Header*/
+{  
+	background-color:#000000;
+	padding-top:1.538461538461538%; 
+	padding-bottom:0.7692307692307692%; 
+	border-bottom:2px solid #c68421;
+	border-bottom-style:groove; 
+}
+h5
+{
+	color: #c68421;
+	display:inline;
+	font-family:"Courier New";
+	font-weight:2%;
+}
+.text
+{
+	background-color:black;
+	color:#ffffff;
+	border:none;
+	font-size:100%;
+	text-align: center;
+	font-family:"Courier New";
+	font-weight:10px;
+}
+.form  /*Css For the form used in login and login1 components*/
+{
+	background-color:#000000;
+	border:1px solid #c68421 ;
+	padding-top:3.076923076923077%;
+	padding-bottom:7.692307692307692%;;
+	padding-left:1.153846153846154%;
+	padding-right:0.9230769230769231%;                                
+	border:square;
+	border-style:groove;
+}
+.form-horizontal{
+	background-color:#000000;
+	border:1px solid #c68421 ;
+	padding-top:3.076923076923077%;
+	padding-bottom:2.307692307692308%;
+	padding-left:1.153846153846154%;
+	padding-right:0.9230769230769231%;
+	border-style: groove;
+	border:square;
+}
+.button {
+	background-color: #c68421; /*Css for Buttons in login,login1 and webin component*/
+	color: white;
+	padding:2% 28%;
+	text-align: center;
+	text-decoration: block;
+	border: none;
+}
+.fg  /*CSS for footer*/
+{  
+	background-color:#000000;
+	padding-top:1.538461538461538%; 
+	padding-bottom:1.538461538461538%; 
+	border-top:2px solid #c68421;
+	border-top-style:groove; 
+	padding-right:3%;
+	padding-left:3%; 
+}
+.col-md-12 {
+	width: 100%;
+}
+
+.col-md-11{
+	width: 91.66666667%;
+}
+.col-md-10{
+	width: 83.33333333%;
+}
+.col-md-9 {
+	width: 75%;
+}
+.col-md-8{
+	width: 66.66666667%;
+}
+.col-md-7{
+	width: 58.33333333%;
+}
+.col-md-6{
+	width: 50%;
+}
+.col-md-5{
+	width: 41.66666667%;
+}
+.col-md-4{
+	width: 33.33333333%;
+}
+.col-md-3 {
+	width: 25%;
+}
+.col-md-2{
+	width: 16.66666667%;
+}
+.col-md-1{
+	width: 8.33333333%;
+}
+.col-md-offset-12 {
+	margin-left: 100%;
+}
+.col-md-offset-11 {
+	margin-left: 91.66666666666666%;
+
+}
+.col-md-offset-10 {
+	margin-left: 83.33333333333334%;
+
+}
+.col-md-offset-9 {
+	margin-left: 75%; 
+
+}
+.col-md-offset-8 {
+	margin-left: 66.66666666666666%;
+
+}
+.col-md-offset-7 {
+	margin-left: 58.333333333333336%; 
+}
+
+.col-md-offset-6 {
+	margin-left: 50%;
+}
+.col-md-offset-5 {
+	margin-left: 41.66666666666667%; 
+
+}
+.col-md-offset-4 {
+	margin-left: 33.33333333333333%;
+}
+.col-md-offset-3 {
+	margin-left: 25%;
+}
+.col-md-offset-2 {
+	margin-left: 16.666666666666664%;
+}
+.col-md-offset-1 {
+	margin-left: 8.333333333333332%;
+}
+.col-md-offset-0 {
+	margin-left: 0;
+}

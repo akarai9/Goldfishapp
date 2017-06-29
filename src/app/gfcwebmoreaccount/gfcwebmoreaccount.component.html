@@ -1,0 +1,33 @@
+<header class="container-fluid hg"><h5>{{clientId}}</h5>
+<img class="image-responsive col-md-offset-5" src="assets/images/logo.png" width="6%" >
+<a (click)="logout()"> <h5 class="col-md-offset-4">Log out</h5>
+</a>
+</header>
+<div class="container-fluid bg">
+	<form class="form-vertical ng-form col-md-offset-1">
+		<div class="col-md-2 col-md-offset-2 input">
+			<label style="padding-left:40%;padding-right:30%;"><h3>EQ</h3></label>
+			<input class="form-control text" name="eq" value="{{user?.accounts[0].equity}}">
+		</div>
+		<div class="col-md-2  input">
+			<label style="padding-left:27%;padding-right:30%;"><h3>Balance</h3></label>
+			<input class="form-control text" name="bal" value="{{user?.accounts[0].balance}}">
+		</div>
+		<div class="col-md-2  input">
+			<label style="padding-left:30%;padding-right:30%;"><h3>Profit</h3></label>
+			<input class="form-control text" name="gain" value="{{user?.accounts[0].gain}}">
+		</div>
+	</form>
+		<form class="form-inline" style="background-color:#000000;padding-bottom:20%;padding-top:8%;margin-top:6.4%;">
+		<div class="form-group col-md-10">
+		<div *ngFor="let a of user?.accounts; let i = index" [attr.data-index]="i">
+			<label class="col-md-1 col-md-offset-2"><h6>Account {{ i+1}}</h6></label>
+			<input class="form-control input1 col-md-3" value="{{a.equity}}"><input class="form-control input1 col-md-3" value="{{a.balance}}"><input class="form-control input1 col-md-3" value="{{a.gain}}">
+			</div>
+		</div>
+		</form>
+		</div>
+<footer class="container-fluid fg">
+	<h5>my.fxbook.com</h5><h5 class="col-md-offset-5">metatrader4</h5><h5 class="col-md-offset-4">LiveChat</h5>
+</footer>
+
