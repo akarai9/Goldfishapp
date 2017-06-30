@@ -1,6 +1,7 @@
-.bg{
-	padding-bottom:140px; 
-	padding-top:140px; 
+.bg
+{
+	width:100%;
+	height:100%;
 }
 .button {
 	display: inline-block;
@@ -9,9 +10,9 @@
 {
 	border:0;
 	border-bottom: 1px solid #c68421;
-	margin-top:30%;
+	margin-top:50%;
     border-bottom-style:groove; 
-  -webkit-border-radius:0 0;
+    -webkit-border-radius:0 0;
 }
 ::-webkit-input-placeholder
 {/*Css For Palceholder*/

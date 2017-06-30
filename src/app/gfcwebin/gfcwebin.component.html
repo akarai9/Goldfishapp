@@ -1,25 +1,32 @@
-<header class="container-fluid hg"><h5>{{clientId}}</h5><img class="image-responsive col-md-offset-5" src="assets/images/logo.png" width="6%" ><a (click)="logout()"><h5 class="col-md-offset-4">Log out</h5></a></header>
+<app-header></app-header>
 <div class="container-fluid bg">
-	<form class="form-vertical col-md-offset-1">
-		<div class="col-md-2 col-md-offset-2 input">
-			<label style="padding-left:40%;
-			padding-right:30%;"><h3>EQ</h3></label>
+	<div class="abc">
+	<form class="">
+		<div class="col-sm-2 col-sm-offset-3 input">
+		<div class="text-center">
+			<label><h3>EQ</h3></label>
+		</div>
 			<input name="eq" class="form-control text" value="{{user?.accounts[0].equity}}">
-		</div>?
-		<div class="col-md-2  input">
-			<label style="padding-left:25%;
-			padding-right:30%;"> <h3>Balance</h3></label>
+		</div>
+		<div class="col-sm-2 input ">
+		<div class="text-center">
+			<label> <h3>Balance</h3></label>
+			</div>
 			<input class="form-control text" name="bal" value="{{user?.accounts[0].balance}}">
 		</div>
-		<div class="col-md-2  input">
-			<label style="padding-left:30%;
-			padding-right:30%;"><h3>Profit</h3></label>
+		<div class="col-sm-2 input">
+		<div class="text-center">
+			<label><h3>Profit</h3></label></div>
 			<input class="form-control text" name="gain" value="{{user?.accounts[0].gain}}">
 		</div>
-		<button (click)="more()" class="button col-md-offset-5" >More</button>
+		<button (click)="more()" class="button" >More</button>
 	</form>
+	</div>
 </div>
-
-<footer class="container-fluid fg">
-	<h5>my.fxbook.com</h5><h5 class="col-md-offset-5">metatrader4</h5><h5 class="col-md-offset-4">LiveChat</h5>
+<footer class="container fg">
+<div class="row">
+<div class="col-md-4 text-center"> <h5>my.fxbook.com</h5></div>
+<div class="col-md-4 text-center"><h5 >metatrader4</h5></div>
+<div class="col-md-4 text-center"><h5>LiveChat</h5></div>
+	</div>
 </footer>

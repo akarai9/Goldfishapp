@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { User } from './../user';
 import { AppService } from './../app.service';
 
+
 @Component({
   selector: 'app-gfcwebmoreaccount',
   templateUrl: './gfcwebmoreaccount.component.html',
@@ -35,11 +36,6 @@ upon the num of account details */
       });
   }
 
-  /*This link will navigate to login component*/
-  logout(){
-    localStorage.removeItem('authtoken');
-    this.router.navigate(['login/']);
-    history.replaceState({},'','clientlogin/:id');
-  }
+
 
 }

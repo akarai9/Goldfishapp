@@ -1,15 +1,22 @@
 <div class="container-fluid bg">
-	<div class="col-md-10">
-		<form class="form-horizontal form-control-static col-md-3 col-md-offset-6">
-			<img class="image-responsive col-md-offset-2" src="assets/images/logo.png" width="60%"><br><br>
-			<div class="col-md-10 col-md-offset-1">
-				<input  [(ngModel)]="user.clientId" class="input form-control" style="background-color:black;color:#c68421;" placeholder="Name...." name="name"><br>
-			</div>
-			<button type="button" (click)="authenticateUser()" class="button col-md-offset-2">Send</button>
-		</form>	
+	<div class="col-xs-12">
+		<div class="col-sm-4 col-xs-9 col-md-2 form-hznt">
+			<form class="">
+				<img class="image-responsive col-xs-offset-2" src="assets/images/logo.png" width="60%" style="margin-top: 12%"><br><br>
+				<div class="col-xs-10 col-xs-offset-1 ">
+					<input  [(ngModel)]="user.clientId" class="input form-control" style="background-color:black;color:#c68421;" placeholder="Name...." name="name"><br>
+				</div>
+				<button type="button" (click)="authenticateUser()" class="button col-xs-offset-2" style="margin-bottom:12%;margin-top:10%;">Send</button>
+			</form>	
+		</div>	
 	</div>
-</div>
-<footer class="container-fluid fg">
-	<h5 class="col-md-offset-1">my.fxbook.com</h5><h5 class="col-md-offset-4">metatrader4</h5><h5 class="col-md-offset-4">LiveChat</h5>
+	</div>
+<footer class="container fg">
+<div class="row">
+<div class="col-md-4 text-center"> <h5>my.fxbook.com</h5></div>
+<div class="col-md-4 text-center"><h5 >metatrader4</h5></div>
+<div class="col-md-4 text-center"><h5>LiveChat</h5></div>
+	</div>
 </footer>
+
 

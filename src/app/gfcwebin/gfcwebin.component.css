@@ -5,34 +5,15 @@
 }
 .button{
 	background-color: #c68421;
-	color: white;
-	padding: 5px 68px;
+	color:white;
+	height: 10%;
+	width:15%; 
 	text-align: center;
 	text-decoration: block;
 	margin-top: 50px;
 	margin-right:0px; 
-	margin-left: 450px;
+	margin-left:45%;
 	border: none;
-}
-.form{
-	background-color:#000000;
-	border:1px solid #c68421 ;
-	padding-top:3.076923076923077%;
-	padding-bottom: 7.692307692307692%;;
-	padding-left:1.153846153846154%;
-	padding-right:0.9230769230769231%; 
-	border:square;
-	border-style:groove;
-}
-.input
-{
-	border:1px solid #c68421 ;
-	display:inline-block;
-	padding-bottom: 2.307692307692308%;
-	margin-right:2.307692307692308%; 
-	border-collapse: 0;
-	border-bottom-style:groove; 
-	border-left-style: groove;
 }
 h5,h3
 {

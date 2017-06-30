@@ -11,7 +11,7 @@ import { GFCwebmoreaccountComponent } from './gfcwebmoreaccount/gfcwebmoreaccoun
 import { RouterModule,CanActivate} from '@angular/router';
 import { AppService } from './app.service';
 import { AuthGuard } from './auth-guard.service';
-import { FooterComponent } from './footer.component'; 
+import { HeaderComponent } from './header/header.component'; 
 
 
 @NgModule({
@@ -20,7 +20,8 @@ import { FooterComponent } from './footer.component';
   GFCwebloginComponent,
   GFCweblogin1Component,
   GFCwebinComponent,
-  GFCwebmoreaccountComponent
+  GFCwebmoreaccountComponent,
+  HeaderComponent
   ],
   imports: [
   BrowserModule,

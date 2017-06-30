@@ -1,31 +1,7 @@
-.bg
-{
-	padding-top:6.153846153846154%; 
-}
-.form{
-	background-color:#000000;
-	border:1px solid #c68421 ;
-	padding-top:3.076923076923077%;
-	padding-bottom: 7.692307692307692%;;
-	padding-left:1.153846153846154%;
-	padding-right:0.9230769230769231%; 
-	border:square;
-	border-style:groove;
-}
-.input
-{
-	border:1px solid #c68421 ;
-	display:inline-block;
-	padding-bottom: 2.307692307692308%;
-	margin-right:2.307692307692308%; 
-	border-collapse: 0;
-	border-bottom-style:groove; 
-	border-left-style: groove;
-}
 h5,h3,h6{
 	color: #c68421;
 }
-.input1
+.input1 /*CSS for account Information*/
 { 
 	border:none;
 	background-color:#000000;

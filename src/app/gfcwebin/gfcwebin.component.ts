@@ -39,11 +39,11 @@ export class GFCwebinComponent implements OnInit {
   more(){
     this.router.navigate(['clientdetails/'+this.clientId]);	
   }
-
-  /*This link will navigate to login component*/
+/*
+  /*This link will navigate to login component
   logout(){
     localStorage.removeItem('authtoken');
     this.router.navigate(['login/']);
-  }
+  }*/
 }
 
